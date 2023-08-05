@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.address {
+    color: #5C5E66;
+    font-size: 1.5em;
+    padding: 0.6rem;
+}
+.address span{
+    color: #B8BCCC;
+    font-size: 1em;
+}
+#ipInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #5C5E66;
+    font-size: 1.5em;
+}
+.location {
+    width: 100vw;
+    background-color: #575A85;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.location p{
+    font-size: 2em;
+    color: #B8BCCC;
+}
+.location #map iframe{
+    width: 80vw;
+}
+.info {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem;
+    color: #5C5E66;
+}
+.info .title{
+    font-size: 2em;
+    color: #B8BCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 0.6rem;
+}
+.post p{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #B8BCCC;
+}
+.searchBox {
+    display: flex;
+    justify-content: center;
+}
+.searchBox input{
+    width: 90vw;
+    height: 6vh;
+    padding: 0.3rem;
+    border: 1px solid #B8BCCC;
+    color: #B8BCCC;
+    border-radius: 0.5rem;
+    background-color: transparent;
+}
